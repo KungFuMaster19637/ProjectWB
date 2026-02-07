@@ -112,7 +112,7 @@ function ProcessExcel(data) {
 
   //Read all rows from First Sheet into an JSON array.
   let excelRows = XLSX.utils.sheet_to_row_object_array(
-    workbook.Sheets[firstSheet]
+    workbook.Sheets[firstSheet],
   );
 
   let fullData = [];
@@ -147,7 +147,7 @@ function ProcessExcel(data) {
               cell
                 .getValue()
                 .split("-")
-                .map((item) => item.trim())[i]
+                .map((item) => item.trim())[i],
             )}'
             >`;
     }
@@ -457,14 +457,14 @@ function loadManualCharacterCosts() {
     Xianyun: ["Anemo", 5, "Catalyst", 6],
     Xiao: ["Anemo", 5, "Polearm", 4],
     Faruzan: ["Anemo", 4, "Bow", 4],
-    Jahoda: ["Anemo", 4, "Bow", 4],
     Jean: ["Anemo", 5, "Sword", 4],
     Wanderer: ["Anemo", 5, "Catalyst", 4],
+    Jahoda: ["Anemo", 4, "Bow", 2],
     Sayu: ["Anemo", 4, "Claymore", 2],
     Heizou: ["Anemo", 4, "Catalyst", 2],
     Lynette: ["Anemo", 4, "Sword", 2],
     Ifa: ["Anemo", 4, "Catalyst", 2],
-    YumeMizukiMizuki: ["Anemo", 5, "Catalyst", 0],
+    Mizuki: ["Anemo", 5, "Catalyst", 0],
     // TravelerAnemo: ["Anemo", 5, "Sword", 2],
 
     Escoffier: ["Cryo", 5, "Polearm", 10],
@@ -589,7 +589,7 @@ function calculateTime() {
   let seconds = total % 60;
   if (seconds < 10) seconds = "0" + seconds;
   document.getElementById("total-time").innerText = `${Math.floor(
-    minutes
+    minutes,
   )}:${seconds}`;
 }
 //#endregion
