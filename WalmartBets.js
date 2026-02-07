@@ -1,5 +1,5 @@
 //Constants
-const currentCycle = "6.2";
+const currentCycle = "6.3";
 const totalBudget = 60;
 
 //#region Loading Shop and Balance Notes
@@ -457,6 +457,7 @@ function loadManualCharacterCosts() {
     Xianyun: ["Anemo", 5, "Catalyst", 6],
     Xiao: ["Anemo", 5, "Polearm", 4],
     Faruzan: ["Anemo", 4, "Bow", 4],
+    Jahoda: ["Anemo", 4, "Bow", 4],
     Jean: ["Anemo", 5, "Sword", 4],
     Wanderer: ["Anemo", 5, "Catalyst", 4],
     Sayu: ["Anemo", 4, "Claymore", 2],
@@ -466,7 +467,7 @@ function loadManualCharacterCosts() {
     YumeMizukiMizuki: ["Anemo", 5, "Catalyst", 0],
     // TravelerAnemo: ["Anemo", 5, "Sword", 2],
 
-    Escoffier: ["Cryo", 5, "Polearm", 12],
+    Escoffier: ["Cryo", 5, "Polearm", 10],
     Skirk: ["Cryo", 5, "Sword", 10],
     Citlali: ["Cryo", 5, "Catalyst", 10],
     Ayaka: ["Cryo", 5, "Sword", 6],
@@ -499,8 +500,8 @@ function loadManualCharacterCosts() {
     Yaoyao: ["Dendro", 4, "Polearm", 4],
     Kaveh: ["Dendro", 4, "Claymore", 0],
 
+    Ineffa: ["Electro", 5, "Polearm", 12],
     Varesa: ["Electro", 5, "Catalyst", 10],
-    Ineffa: ["Electro", 5, "Polearm", 10],
     Flins: ["Electro", 5, "Polearm", 10],
     Fischl: ["Electro", 4, "Bow", 8],
     Iansan: ["Electro", 4, "Polearm", 6],
@@ -519,12 +520,14 @@ function loadManualCharacterCosts() {
     Dori: ["Electro", 4, "Claymore", 0],
     // TravelerElectro: ["Electro", 5, "Sword", 0],
 
+    Zibai: ["Geo", 5, "CSword", 10],
     Xilonen: ["Geo", 5, "CSword", 10],
     Navia: ["Geo", 5, "Claymore", 8],
     Itto: ["Geo", 5, "Claymore", 6],
     Zhongli: ["Geo", 5, "Polearm", 6],
     Chiori: ["Geo", 5, "Sword", 6],
     Albedo: ["Geo", 5, "Sword", 4],
+    Illuga: ["Geo", 4, "Polearm", 4],
     Gorou: ["Geo", 4, "Bow", 2],
     Yunjin: ["Geo", 4, "Polearm", 2],
     Kachina: ["Geo", 4, "Polearm", 2],
@@ -532,6 +535,7 @@ function loadManualCharacterCosts() {
     Noelle: ["Geo", 4, "Claymore", 0],
     // TravelerGeo: ["Geo", 5, "Sword", 0],
 
+    Columbina: ["Hydro", 5, "Catalyst", 12],
     Mualani: ["Hydro", 5, "Catalyst", 10],
     Furina: ["Hydro", 5, "Sword", 10],
     Xingqiu: ["Hydro", 4, "Sword", 8],
@@ -550,6 +554,7 @@ function loadManualCharacterCosts() {
 
     Mavuika: ["Pyro", 5, "Claymore", 12],
     Bennett: ["Pyro", 4, "Sword", 12],
+    Durin: ["Pyro", 5, "Sword", 8],
     Arlecchino: ["Pyro", 5, "Polearm", 8],
     Chevreuse: ["Pyro", 4, "Polearm", 8],
     Xiangling: ["Pyro", 4, "Polearm", 8],
